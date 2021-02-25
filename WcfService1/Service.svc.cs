@@ -21,7 +21,7 @@ namespace WcfServiceAcademia
         {
             units = new List<UnitTemp>();
             UnitTemp kelvin = new UnitTemp() { ID = 1, Name = "Kelvin", Description = "Scientifical temperature scale ranging from absolute coldness to infinite hotness using the Celsius scale" };
-            UnitTemp celsius = new UnitTemp();
+            UnitTemp celsius = new UnitTemp(); //I could make this all the same
             celsius.ID = 2;
             celsius.Name = "Celsius";
             celsius.Description = "Day to day scale based on a 0 to 100 between the three states of water.";
